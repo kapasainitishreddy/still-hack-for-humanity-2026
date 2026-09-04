@@ -1,0 +1,1 @@
+const DEFAULT_BREATHING_RESET_SECONDS=60;function shouldCompleteBreathingSession(elapsedSeconds,targetSeconds=DEFAULT_BREATHING_RESET_SECONDS){return elapsedSeconds>=targetSeconds;}module.exports={DEFAULT_BREATHING_RESET_SECONDS,shouldCompleteBreathingSession};
