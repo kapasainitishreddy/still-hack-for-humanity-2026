@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Still",
+    "slug": "still-hack-for-humanity-2026",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "still",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-router",
+      "expo-local-authentication",
+      "expo-camera",
+      "expo-notifications",
+      "expo-secure-store"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.syrava.still.hackforhumanity"
+    },
+    "android": {
+      "package": "com.syrava.still.hackforhumanity",
+      "permissions": ["CAMERA", "RECORD_AUDIO", "POST_NOTIFICATIONS"]
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "experiments": {
+      "typedRoutes": false
+    }
+  }
+}
